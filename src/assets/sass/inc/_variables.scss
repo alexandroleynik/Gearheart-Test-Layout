@@ -1,0 +1,23 @@
+// Responsive breakpoints
+$tablet: 1024px;
+$tablet_m: $tablet - 1;
+$mobile: 767px;
+$mobile_m: $mobile + 1;
+
+
+// Size
+$wrapper-width: 1170px;
+$gutter: 30px;
+
+
+// Colors
+$black: #000000;
+$white: #FFFFFF;
+$dark: #333333;
+$gray: #8e8c8c;
+$cyan: #00c8c8;
+
+
+// Fonts
+$sans: "Roboto", Arial, sans-serif;
+$sans2: "Montserrat", $sans;

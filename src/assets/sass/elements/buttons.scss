@@ -1,0 +1,89 @@
+// Buttons
+.btn {
+  outline: none;
+  
+  display: inline-block;
+  border: 2px solid transparent;
+  padding: 0;
+  padding-right: 15px;
+  padding-left: 15px;
+  
+  border-radius: 0;
+
+  box-sizing: border-box;
+  
+  background-color: transparent;
+  
+  vertical-align: middle;
+  
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  
+  transition: all 200ms ease-in-out;
+  
+  cursor: pointer;
+  
+  &:active,
+  &:focus {
+    box-shadow: none;
+  }
+  
+  &:active:focus,
+  &:active,
+  &:focus {
+    outline: none;
+  }
+
+  &-cyan {
+    height: 59px;
+    
+    background-color: $cyan;
+    
+    font: 500 16px/59px $sans2;
+    color: $white;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+
+    &:hover {
+      background-color: $dark;
+    }
+
+    &:active {
+      background-color: $dark;
+    }
+  }
+
+  &-bordered {
+    height: 59px;
+    border: 2px solid #737373;
+    
+    background-color: $white;
+    
+    font: 500 16px/55px $sans2;
+    color: #454647;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+
+    &:hover {
+      border-color: $cyan;
+      background-color: $cyan;
+      color: $white;
+    }
+
+    &:active {
+      border-color: $cyan;
+      background-color: $cyan;
+      color: $white;
+    }
+  }
+
+  &-fw {
+  	width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
